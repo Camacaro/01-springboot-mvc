@@ -6,6 +6,9 @@ public class User {
     private String lastname;
     private String email;
 
+    /**
+     * Este vacío sirve para el setter del post en request
+     */
     public User() {
 
     }

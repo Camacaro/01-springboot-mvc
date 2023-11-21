@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymlef.org">
+<head>
+    <meta charset="UTF-8" />
+    <title th:text="${title}"></title>
+</head>
+<body>
+
+  <h1>Hola spring!</h1>
+  <h1 th:text="${title2}"></h1>
+
+    <ul>
+        <li>
+            <a th:href="@{/api/params/bar(text='Hola', code=45)}">
+                /api/params/bar?text=Hola&code=45
+            </a>
+        </li>
+        <li>
+            <a th:href="@{/api/params/request(text='Hola Mundo')}">
+                /api/params/request?text=Hola Mundo
+            </a>
+        </li>
+    </ul>
+
+</body>
+</html>

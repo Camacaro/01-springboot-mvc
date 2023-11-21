@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymlef.org">
+<head>
+  <meta charset="UTF-8" />
+  <title th:text="${title}"></title>
+  <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" >
+</head>
+<body>
+
+<h1 th:text="${title}"></h1>
+
+<h1 th:text="${titleOtherFile}"></h1>
+
+<h1 class="color-rojo">Hola spring!</h1>
+<h2 class="color-azul">decorando estilo</h2>
+<img th:src="@{/images/IMONVACATION.png}">
+</body>
+</html>
